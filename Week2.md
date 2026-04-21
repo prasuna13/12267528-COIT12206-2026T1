@@ -37,6 +37,8 @@ ifconfig eth0 10.10.1.2 netmask 255.255.255.0 up
 ping 10.10.1.2
 ``` 
 ## Screenshots / Evidence
+![Network Topology](images/week02/network.png)
+![Ping Test](images/week02/ping.png) 
 
 ## Testing Results
 
