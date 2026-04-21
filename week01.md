@@ -8,7 +8,6 @@
 **Date:** 9/03/2026
 
 ---
----
 
 ## Objective
 The objective of this task was to understand the unit requirements, set up the required tools, and practice basic GNS3 usage including configuring a Linux host with a static IP address.
@@ -42,21 +41,21 @@ iface eth0 inet static
 ```
 
 
-Screenshots / Evidence
+## Screenshots / Evidence
 
-**Testing Results**
+## Testing Results
 
 The ip address show command confirmed that the IP address was successfully assigned to the Linux host. The configuration was correctly applied and visible in the interface details.
 
-**Key Concepts Learned**
+##Key Concepts Learned
 
 This task helped me understand how static IP addressing works in a Linux environment. Configuring the /etc/network/interfaces file ensures that the IP settings remain after reboot. I also learned that hosts should not forward packets, so IP forwarding should be disabled.
 
-**Reflection**
+## Reflection
 
 This task helped me become familiar with GNS3 and basic Linux networking. I learned how to configure a static IP address and verify it using command line tools. Initially, I needed to understand where to configure the settings and how to apply them correctly. This task built a strong foundation for more advanced networking concepts in later weeks.
 
-**Files Produced**
+## Files Produced
 GNS3 Project: GNS3-Intro-12267528.gns3project
 Network Screenshot
 Console Screenshot showing IP address
