@@ -1,3 +1,4 @@
+
 # Week 01 Portfolio – GNS3 Introduction and Static IP Setup
 
 **Name:** Prasuna Shrestha
@@ -37,3 +38,5 @@ iface eth0 inet static
     address 10.10.1.1
     netmask 255.255.255.0
     up sysctl net.ipv4.ip_forward=0
+## Screenshots / Evidence
+![Network Topology](images/week01/network.png)
