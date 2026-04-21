@@ -42,12 +42,15 @@ iface eth0 inet static
 
 
 ## Screenshots / Evidence
+![Network](images/week01/network.png.png)
+
+![IP](images/week01/ip.png.png)
 
 ## Testing Results
 
 The ip address show command confirmed that the IP address was successfully assigned to the Linux host. The configuration was correctly applied and visible in the interface details.
 
-##Key Concepts Learned
+## Key Concepts Learned
 
 This task helped me understand how static IP addressing works in a Linux environment. Configuring the /etc/network/interfaces file ensures that the IP settings remain after reboot. I also learned that hosts should not forward packets, so IP forwarding should be disabled.
 
