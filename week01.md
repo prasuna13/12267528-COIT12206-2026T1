@@ -39,4 +39,4 @@ iface eth0 inet static
     netmask 255.255.255.0
     up sysctl net.ipv4.ip_forward=0
 ## Screenshots / Evidence
-![Network Topology](images/week01/network.png)
+images/week01/network.png
